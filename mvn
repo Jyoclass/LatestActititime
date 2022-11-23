@@ -1,0 +1,1 @@
+ clean test -Dtestxml=TC1_createcustomer.xml
