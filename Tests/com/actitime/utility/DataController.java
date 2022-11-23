@@ -24,12 +24,13 @@ public static	Object[][] Customer_DC() throws IOException
 		wb=new XSSFWorkbook(fi);
 		sh=wb.getSheet("custinfo");
 		DataFormatter df=new DataFormatter();
-		Object[][] obj=new Object[sh.getLastRowNum()-1][sh.getRow(0).getLastCellNum()];
-		for(int i=1;i<=obj.length;i++) //1-3
+		Object[][] obj=new Object[sh.getLastRowNum()][sh.getRow(0).getLastCellNum()];
+
+		for(int i=1;i<=obj.length-1;i++) //1-3
 		{
 			for(int j=0;j<=obj[0].length-1;j++) //0-1 
 			{
-				obj[i-1][j]=df.formatCellValue(sh.getRow(i).getCell(j));
+				obj[i][j]=df.formatCellValue(sh.getRow(i+1).getCell(j));
 						
 			}	       
 		}
