@@ -3,8 +3,14 @@
   <groupId>ActitimeLatest</groupId>
   <artifactId>ActitimeLatest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+<testcase>${testxml}</testcase>
+
+</properties>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
+    <testSourceDirectory>Tests</testSourceDirectory>
     <plugins>
     
       <plugin>
@@ -13,19 +19,16 @@
         <version>3.0.0-M7</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>Resource\TestngXML\TC1_createcustomer.xml</suiteXmlFile>
+            <suiteXmlFile>Resource/TestngXML/${testcase}</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
-    
-    
-    
-    
+  
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <release>17</release>
+          <release>11</release>
         </configuration>
       </plugin>
     </plugins>

@@ -1,4 +1,4 @@
-package com.actititime.utility;
+package com.actitime.utility;
 
 import java.time.Duration;
 

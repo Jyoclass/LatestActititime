@@ -1,4 +1,4 @@
-package com.actititime.utility;
+package com.actitime.utility;
 
 import org.apache.log4j.Logger;
 

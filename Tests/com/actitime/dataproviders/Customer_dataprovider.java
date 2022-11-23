@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import org.testng.annotations.DataProvider;
 
-import com.actititime.utility.DataController;
+import com.actitime.utility.DataController;
 
 
 public class Customer_dataprovider 

@@ -9,9 +9,9 @@ import com.actitime.base.WebBase;
 import com.actitime.dataproviders.Customer_dataprovider;
 import com.actitime.pagefactory.EnterTimeTrack_page;
 import com.actitime.pagefactory.Task_page;
-import com.actititime.utility.CaptureScreens;
-import com.actititime.utility.Logreport;
-import com.actititime.utility.Waitstatements;
+import com.actitime.utility.CaptureScreens;
+import com.actitime.utility.Logreport;
+import com.actitime.utility.Waitstatements;
 
 
 
