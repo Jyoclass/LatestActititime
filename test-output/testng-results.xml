@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-23T13:56:13 IST" name="Suite" finished-at="2022-11-23T13:56:27 IST" duration-ms="14345">
+    <groups>
+    </groups>
+    <test started-at="2022-11-23T13:56:13 IST" name="Test" finished-at="2022-11-23T13:56:27 IST" duration-ms="14345">
+      <class name="com.actitime.customer.Createcustomer">
+        <test-method is-config="true" signature="login_actitime(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.actitime.customer.Createcustomer@e15b7e8]" started-at="2022-11-23T13:56:14 IST" name="login_actitime" finished-at="2022-11-23T13:56:17 IST" duration-ms="3301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do;jsessionid=b5n2f3ech8c9b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_actitime -->
+        <test-method signature="createcustomer(java.lang.String,java.lang.String)[pri:0, instance:com.actitime.customer.Createcustomer@e15b7e8]" started-at="2022-11-23T13:56:17 IST" name="createcustomer" data-provider="createcustomer" finished-at="2022-11-23T13:56:17 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[capegemini 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[service based company1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomer -->
+        <test-method is-config="true" signature="logout_actitime()[pri:0, instance:com.actitime.customer.Createcustomer@e15b7e8]" started-at="2022-11-23T13:56:17 IST" name="logout_actitime" finished-at="2022-11-23T13:56:18 IST" duration-ms="1128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_actitime -->
+        <test-method is-config="true" signature="login_actitime(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.actitime.customer.Createcustomer@e15b7e8]" started-at="2022-11-23T13:56:18 IST" name="login_actitime" finished-at="2022-11-23T13:56:20 IST" duration-ms="1605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do;jsessionid=b5n2f3ech8c9b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_actitime -->
+        <test-method signature="createcustomer(java.lang.String,java.lang.String)[pri:0, instance:com.actitime.customer.Createcustomer@e15b7e8]" started-at="2022-11-23T13:56:20 IST" name="createcustomer" data-provider="createcustomer" finished-at="2022-11-23T13:56:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[capegemini 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[service based company2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomer -->
+        <test-method is-config="true" signature="logout_actitime()[pri:0, instance:com.actitime.customer.Createcustomer@e15b7e8]" started-at="2022-11-23T13:56:20 IST" name="logout_actitime" finished-at="2022-11-23T13:56:21 IST" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_actitime -->
+        <test-method is-config="true" signature="login_actitime(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.actitime.customer.Createcustomer@e15b7e8]" started-at="2022-11-23T13:56:21 IST" name="login_actitime" finished-at="2022-11-23T13:56:24 IST" duration-ms="2456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do;jsessionid=b5n2f3ech8c9b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_actitime -->
+        <test-method signature="createcustomer(java.lang.String,java.lang.String)[pri:0, instance:com.actitime.customer.Createcustomer@e15b7e8]" started-at="2022-11-23T13:56:24 IST" name="createcustomer" data-provider="createcustomer" finished-at="2022-11-23T13:56:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[capegemini 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[service based company3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomer -->
+        <test-method is-config="true" signature="logout_actitime()[pri:0, instance:com.actitime.customer.Createcustomer@e15b7e8]" started-at="2022-11-23T13:56:24 IST" name="logout_actitime" finished-at="2022-11-23T13:56:24 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_actitime -->
+        <test-method is-config="true" signature="login_actitime(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.actitime.customer.Createcustomer@e15b7e8]" started-at="2022-11-23T13:56:24 IST" name="login_actitime" finished-at="2022-11-23T13:56:26 IST" duration-ms="1669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do;jsessionid=b5n2f3ech8c9b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_actitime -->
+        <test-method signature="createcustomer(java.lang.String,java.lang.String)[pri:0, instance:com.actitime.customer.Createcustomer@e15b7e8]" started-at="2022-11-23T13:56:26 IST" name="createcustomer" data-provider="createcustomer" finished-at="2022-11-23T13:56:26 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[capegemini 4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[service based company4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomer -->
+        <test-method is-config="true" signature="logout_actitime()[pri:0, instance:com.actitime.customer.Createcustomer@e15b7e8]" started-at="2022-11-23T13:56:26 IST" name="logout_actitime" finished-at="2022-11-23T13:56:27 IST" duration-ms="1240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_actitime -->
+      </class> <!-- com.actitime.customer.Createcustomer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
